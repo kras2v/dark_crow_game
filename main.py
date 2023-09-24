@@ -16,7 +16,7 @@ COLOR_BLUE = (0,0,255)
 COLOR_YELLOW = (233,201,17)
 
 COLOR_GRAY = (212,212,212)
-COLOR_BUTTON_HOVER = (135,0,0)
+COLOR_BUTTON_HOVER = (105, 0, 0)
 
 ######_Menu_######
 
@@ -378,10 +378,10 @@ def main_menu():
 
           title_bg = pygame.image.load('img/title_bg_border.png')
           main_display.blit(title_bg,(330,-40))
-          draw_text(250, 150, "New Game", 150, 'font/Harrington.ttf', COLOR_BUTTON_HOVER)
+          draw_text(250, 150, "Dark Crow", 150, 'font/Harrington.ttf', COLOR_BUTTON_HOVER)
 
           if button_game.button_draw():
-                          game()
+                          game() 
           if button_diff.button_draw():
                           settings()
           if button_quit.button_draw():
